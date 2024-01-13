@@ -24,7 +24,7 @@ const projectProducts = async() =>{
         let products = await manager.getProducts();
 
         //Busqueda de producto por id
-        const productoConId2 = await manager.getProductById(2)
+        const productoConId2 = await manager.getProductById(7)
         console.log(productoConId2)
 
         //Actualizacion del producto
