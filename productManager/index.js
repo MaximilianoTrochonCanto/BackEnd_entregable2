@@ -24,12 +24,12 @@ const projectProducts = async() =>{
         let products = await manager.getProducts();
 
         //Busqueda de producto por id
-        const productoConId2 = await manager.getProductById(7)
+        const productoConId2 = await manager.getProductById(5)
         console.log(productoConId2)
 
         //Actualizacion del producto
 
-        await manager.updateProduct(2,"descripcion","Xiaomi inalambricos")
+        await manager.updateProduct(2,"descripcion","JBL Bluetooth")
         console.log(productoConId2)
 
         //Eliminaciones  
